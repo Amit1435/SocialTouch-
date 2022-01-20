@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" content="width=360, initial-scale=1">
+
+    <!-- FONT AWESOME LINk  ============================================= -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <title>SocialTouch | social media website</title>
+</head>
+<body>
+    
+<!-- nav bar start ================================ -->
+
+    <nav>
+        <div class="nav-left">
+            <a class="logo" href="#">Social <span>Touch</span></a>
+            <ul>
+                <a href="#"><i class="fas fa-bell online"></i></a>
+                <a href="#"><i class="fas fa-envelope online"></i></a>
+                <a href="#"><i class="fas fa-video "></i></a>
+                <a href="#"><i class="fas fa-comment-alt nav-message"></i></a>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./images/user-img.png" >
+            </div>
+            <i class="far fa-question-circle help"></i>
+        </div>
+
+        <!-- settings-menu -->
+
+        <div class="settings-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+
+                    <a href="profile.html"><img src="./images/user-img.png" alt=""></a>
+                    <div>
+                        <p style="font-size: 15px;">Silak_Developrer</p>
+                        <a href="profile.html" style="font-size: 12px; color: rgb(2, 75, 201);">See your profile</a>
+                    </div>
+                </div>
+    <hr style=" background-color: #929292; margin:10px 0">
+                <div class="user-profile">
+                    <i class="fas fa-exclamation-circle" style="font-size: 30px; padding: 3px 15px 0 10px;"></i>
+                    <div>
+                        <p style="font-size: 15px;">Give Feedback</p>
+                        <a href="#" style="font-size: 12px; color: rgb(2, 75, 201);">Help our team to improve new design.</a>
+                    </div>
+                </div>
+    <hr style=" background-color: #929292; margin:10px 0">            
+
+
+
+                <div class="settings-links">
+                    <i class="fas fa-cog" style="font-size: 25px; padding: 0 15px 0 10px;"></i>
+                    <a href="#">Settings & Privacy <i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="settings-links" >
+                    <i class="fas fa-question-circle" style="font-size: 25px; padding: 0 15px 0 10px;"></i>
+                    <a href="#">Help & Support <i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="settings-links" >
+                    <i class="fas fa-moon" style="font-size: 25px; padding: 0 15px 0 10px;"></i>
+                    <a href="#">Display & Accessibility <i class="fas fa-chevron-right"></i></a>
+                </div>
+
+                <div class="settings-links">
+                    <i class="fas fa-sign-out-alt" style="font-size: 25px; padding: 0 15px 0 10px;"></i>
+                    <a href="#">Logout <i class="fas fa-chevron-right"></i></a>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+<!-- nav bar end ================================ -->
+
+<!-- main container start ================================ -->
+
+    <div class="main-box">
+
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><i class="far fa-newspaper"></i>Latest News</a>
+                <a href="#"><i class="fas fa-user-friends"></i>Friends</a>
+                <a href="#"><i class="fas fa-users"></i>Group</a>
+                <a href="#"><i class="fas fa-chart-line"></i>Marketplace</a>
+                <a href="#"><i class="fas fa-tv"></i>Watch</a>
+                <a href="#" style="color: rgb(0, 136, 255); padding-bottom: 15px;">See More <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="shortcut-links">
+                <p style="padding-top: 10px;"><i class="far fa-bookmark" ></i> Bookmarks</p>
+                <a href="#"><img src="./images/ui-img.jfif" alt=""> UI Desiners</a>
+                <a href="#"><img src="./images/web-img.jfif" alt=""> Web Developers</a>
+                <a href="#"><img src="./images/py-img.jfif" alt=""> Python Course</a>
+                <a href="#"><img src="./images/photography-img.jpg" alt=""> Photography</a>
+                <a href="#"><img src="./images/ai-img.jfif" alt=""> AI Projects</a>
+                
+            </div>
+        </div>
+
+
+
+
+        
+
+
+
+        
+
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./images/poststory.png" alt="">
+                    <p>Post Story</p>
+                </div>
+
+                <div class="story story2">
+                    <img src="./images/chat-1.jpg" alt="">
+                    <p>Rahul</p>
+                </div>
+
+                <div class="story story3">
+                    <img src="./images/chat-2.jpg" alt="">
+                    <p>Alexa</p>
+                </div>
+
+                <div class="story story4">
+                    <img src="./images/chat-3.jpg" alt="">
+                    <p>Abhishek</p>
+                </div>
+
+                <div class="story story5">
+                    <img src="./images/chat-1.jpg" alt="">
+                    <p>Anukul</p>
+                </div>
+            </div>
+        
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/user-img.png" alt="">
+                    <div>
+                        <p>Silak_Developrer</p>
+                        <small>Public <i class="fas fa-angle-down" style="padding-left:8px; margin-top: 10px;"></i></small>
+                    </div>
+                    
+                </div>
+
+                <div class="add-post-links">
+                    <a href="#"><i class="fas fa-video"></i> Live Video</a>
+                    <a href="#"><i class="fas fa-camera-retro"></i>Post Photo</a>
+                    <a href="#"><i class="far fa-grin-alt"></i> Activity</a>
+                </div>
+                
+            </div>
+
+
+<!-- 1st post  -->
+
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./images/user-img.png" alt="">
+                    <div>
+                        <p style="margin-bottom: -3px;">Silak_Developrer</p>
+                        <span style=" font-size: 12px; font-weight: 600; color: rgb(138, 135, 135);">Jan 10 2022, 08:33 am</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v dots-3" ></i>
+                </div>
+
+                <p style="padding: 10px 20px; line-height: 20px; color: rgb(142, 141, 141);">
+                 <a href="#" style="color: rgb(0, 115, 198);">@Silak_Developrer.</a>
+                    the design of websites that are displayed on the internet. It usually refers
+                     to the user experience aspects of website development rather than software development.
+                     <br>
+                 <a href="#" style="color: rgb(0, 115, 198);"> #WebsiteDesign </a>
+                 <a href="#" style="color: rgb(0, 115, 198);"> #UiDesign</a>
+                </p>
+
+                <div class="post">
+                    <img src="./images/post-1.jpg" class="post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px; color: rgb(0, 94, 255);" class="fas fa-thumbs-up"  ></i>174 Likes</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-comment-alt"></i>53 Comments</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-share"></i>22 Shares</a>           
+                        </div>
+                    </div>
+                    <div style="margin: 15px;" class="comment">
+                        <img src="./images/user-img.png" style="width: 35px; border-radius: 50%;border: 2px solid rgb(0, 94, 255);" alt="">
+                        <input type="text" placeholder="Add a comment...." style="border-bottom: 2px solid rgb(181, 180, 180); margin-left: 5px; width: 87%">
+                        <i class="fas fa-arrow-alt-circle-right" style="font-size: 30px;"></i>
+                    </div>
+                </div>    
+            </div>
+
+
+
+<hr>
+
+<!-- 2nd post  -->
+
+
+
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./images/chat-2.jpg" alt="">
+                    <div>
+                        <p style="margin-bottom: -3px;">Vikas Yadav</p>
+                        <span style=" font-size: 12px; font-weight: 600; color: rgb(138, 135, 135);">Jan 9 2022, 11:07 am</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v dots-3" ></i>
+                </div>
+
+                <p style="padding: 10px 20px; line-height: 20px; color: rgb(142, 141, 141);">
+                 <a href="#" style="color: rgb(0, 115, 198);">@Player_boy.</a>
+                 It features far less equipment and fewer rules than its counterparts, but unlike the similar touch football, features full tackling.
+                                      <br>
+                 <a href="#" style="color: rgb(0, 115, 198);"> #Football </a>
+                 <a href="#" style="color: rgb(0, 115, 198);"> #MyHobbies</a>
+                </p>
+
+                <div class="post">
+                    <img src="./images/post-3.jpg" class="post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px; " class="fas fa-thumbs-up"  ></i>224 Likes</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-comment-alt"></i>43 Comments</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-share"></i>27 Shares</a>           
+                        </div>
+                    </div>
+                    <div style="margin: 15px;" class="comment">
+                        <img src="./images/user-img.png" style="width: 35px; border-radius: 50%;border: 2px solid rgb(0, 94, 255);" alt="">
+                        <input type="text" placeholder="Add a comment...." style="border-bottom: 2px solid rgb(181, 180, 180); margin-left: 5px; width: 87%">
+                        <i class="fas fa-arrow-alt-circle-right" style="font-size: 30px;"></i>
+                    </div>
+                </div>    
+            </div>
+
+
+<hr>
+
+            <!-- 3rd post  -->
+
+
+
+            
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./images/chat-3.jpg" alt="">
+                    <div>
+                        <p style="margin-bottom: -3px;">Neha Agarwal </p>
+                        <span style=" font-size: 12px; font-weight: 600; color: rgb(138, 135, 135);">Jan 7 2022, 11:15 am</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v dots-3" ></i>
+                </div>
+
+                <p style="padding: 10px 20px; line-height: 20px; color: rgb(142, 141, 141);">
+                <a href="#" style="color: rgb(0, 115, 198);">@MyTravel.</a>
+                Travel photography is a genre of photography that may involve the documentation of an area's landscape, people, cultures, customs, and history. 
+                                                    <br>
+                <a href="#" style="color: rgb(0, 115, 198);"> #MyJourney </a>
+                <a href="#" style="color: rgb(0, 115, 198);"> #Travel</a>
+                <a href="#" style="color: rgb(0, 115, 198);"> #Nature</a>
+                </p>
+
+                <div class="post">
+                    <img src="./images/post-5.jpg" class="post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px; color: rgb(0, 94, 255);" class="fas fa-thumbs-up"  ></i>2,453 Likes</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-comment-alt"></i>228 Comments</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-share"></i>78 Shares </a>           
+                        </div>
+                    </div>
+                    <div style="margin: 15px;" class="comment">
+                        <img src="./images/user-img.png" style="width: 35px; border-radius: 50%;border: 2px solid rgb(0, 94, 255);" alt="">
+                        <input type="text" placeholder="Add a comment...." style="border-bottom: 2px solid rgb(181, 180, 180); margin-left: 5px; width: 87%">
+                        <i class="fas fa-arrow-alt-circle-right"  style="font-size: 30px;"></i>                    
+                    </div>
+                </div>    
+            </div>
+
+
+
+
+<hr>
+
+<!-- 4th post  -->
+
+
+
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./images/chat-1.jpg" alt="">
+                    <div>
+                        <p style="margin-bottom: -3px;"> Aman Sharma</p>
+                        <span style=" font-size: 12px; font-weight: 600; color: rgb(138, 135, 135);">Jan 8 2022, 05:48 pm</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v dots-3" ></i>
+                </div>
+
+                <p style="padding: 10px 20px; line-height: 20px; color: rgb(142, 141, 141);">
+                <a href="#" style="color: rgb(0, 115, 198);">@myOffice.</a>
+                firstline workers are members of the workforce that don't have dedicated computing devices.
+                    <br>
+                <a href="#" style="color: rgb(0, 115, 198);"> #Microsoft </a>
+                <a href="#" style="color: rgb(0, 115, 198);"> #GroupWork</a>
+                </p>
+
+                <div class="post">
+                    <img src="./images/post-2.jpg" class="post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px; color: rgb(0, 94, 255);" class="fas fa-thumbs-up"  ></i>546 Likes</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-comment-alt"></i>92 Comments</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-share"></i>41 Shares </a>           
+                        </div>
+                    </div>
+                    <div style="margin: 15px;" class="comment">
+                        <img src="./images/user-img.png" style="width: 35px; border-radius: 50%;border: 2px solid rgb(0, 94, 255);" alt="">
+                        <input type="text" placeholder="Add a comment...." style="border-bottom: 2px solid rgb(181, 180, 180); margin-left: 5px; width: 87%">
+                        <i class="fas fa-arrow-alt-circle-right"  style="font-size: 30px;"></i>                    
+                    </div>
+                </div>    
+            </div>
+
+
+
+<!-- 5th post  -->
+<hr>
+
+
+
+
+
+            
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="./images/chat-3.jpg" alt="">
+                    <div>
+                        <p style="margin-bottom: -3px;"> Sara Singh</p>
+                        <span style=" font-size: 12px; font-weight: 600; color: rgb(138, 135, 135);">Jan 8 2022, 09:26 am</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v dots-3" ></i>
+                </div>
+
+                <p style="padding: 10px 20px; line-height: 20px; color: rgb(142, 141, 141);">
+                <a href="#" style="color: rgb(0, 115, 198);">@PhotoClub.</a>
+                Photography is the process of recording an image – a photograph – on lightsensitive film or, in the case of digital photography, via a digital electronic or magnetic memory.
+                                    <br>
+                <a href="#" style="color: rgb(0, 115, 198);"> #Photography </a>
+                <a href="#" style="color: rgb(0, 115, 198);"> #MyWork</a>
+                <a href="#" style="color: rgb(0, 115, 198);"> #Gallery</a>
+                </p>
+
+                <div class="post">
+                    <img src="./images/post-4.jpg" class="post-img">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px; " class="fas fa-thumbs-up"  ></i>842 Likes</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-comment-alt"></i>102 Comments</a>
+                            <a href="#" style="padding-right: 25px;"><i style="padding-right: 7px;" class="fas fa-share"></i>56 Shares </a>           
+                        </div>
+                    </div>
+                    <div style="margin: 15px;" class="comment">
+                        <img src="./images/user-img.png" style="width: 35px; border-radius: 50%;border: 2px solid rgb(0, 94, 255);" alt="">
+                        <input type="text" placeholder="Add a comment...." style="border-bottom: 2px solid rgb(181, 180, 180); margin-left: 5px; width: 87%">
+                        <i class="fas fa-arrow-alt-circle-right"  style="font-size: 30px;"></i>                    
+                    </div>
+                </div>    
+            </div>
+
+
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+            <br>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="right-sidebar">
+            <div class="right-sidebar-title">
+                <h4>Events</h4>
+                <a href="#" style="color: rgb(0, 136, 255);">See All <i class="fas fa-angle-right"></i></a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>January</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt" style="padding: 5px;"></i>Jaipur</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>12</h3>
+                    <span>February</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt" style="padding: 5px;"></i>Mumbai</p>
+                    <a href="#">More info</a>
+                </div>
+            </div>
+<hr>
+            <div class="right-sidebar-title" >
+                <h4>Advertisement</h4>
+                <a href="#" style="color: rgb(0, 136, 255);"> <i class="far fa-times-circle" style="padding: 5px;"></i>Close </a>
+            </div>
+
+            <img src="./images/adver-img.jpg" class="sidebar-ads">
+<hr>
+            <div class="right-sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#" style="color: rgb(0, 136, 255);"> <i class="fas fa-minus-circle" style="padding: 5px;"></i>Hide Chat </a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-1.jpg" alt="">
+                </div>
+                <p>Anukul Sharma</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-2.jpg" alt="">
+                </div>
+                <p>Viaks Yadav</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-3.jpg" alt="">
+                </div>
+                <p>Sara Singh</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-4.jfif" alt="">
+                </div>
+                <p>Dhruv</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-5.jpg" alt="">
+                </div>
+                <p>Asmit</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-6.jpg" alt="">
+                </div>
+                <p>Neha</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="./images/chat-7.jpg" alt="">
+                </div>
+                <p>Varsha</p>
+                <i class="fas fa-ellipsis-h" ></i>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <p style="color: #929292;">Copyright 2022 - <span style="color: rgb(0, 115, 198);">Web Touch </span> unity by <span style="color: rgb(0, 115, 198);"> Silak_Developer.</span> </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
